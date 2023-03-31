@@ -19,12 +19,12 @@ table{
     border-collapse: collapse;
 }
 
-td{
+td, th{
     padding: 0.75em 1em;
 }
 
 thead tr{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid orange;
 }
 
 tr:not(:last-child){
@@ -32,5 +32,12 @@ tr:not(:last-child){
 }
 
 tr:nth-child(2n){
-    background-color: #ffD40055;
+    background-color: #f0e9d2;
 }
+
+form{
+    display: grid;
+    grid-template-columns: auto 1fr auto 1fr;
+    gap: 0.5em;
+}
+
