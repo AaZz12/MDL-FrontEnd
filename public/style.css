@@ -54,7 +54,6 @@ input{
     border-bottom : 1px solid #999;
 }
 
-input : focus{
-    border-bottom: 2px solid orange;
+input:focus {
+    border-bottom: 2px solid #ffD400;
 }
-
