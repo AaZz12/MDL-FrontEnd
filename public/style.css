@@ -23,6 +23,13 @@ td, th{
     padding: 0.75em 1em;
 }
 
+td img{
+    width: 1em;
+}
+
+td input{
+    max-width: 9em;
+}
 thead tr{
     border-bottom: 2px solid orange;
 }
@@ -39,5 +46,15 @@ form{
     display: grid;
     grid-template-columns: auto 1fr auto 1fr;
     gap: 0.5em;
+}
+
+input{
+    outline : none;
+    border: none;
+    border-bottom : 1px solid #999;
+}
+
+input : focus{
+    border-bottom: 2px solid orange;
 }
 
